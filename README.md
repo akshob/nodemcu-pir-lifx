@@ -5,7 +5,9 @@
 
 - ESP8266 NodeMCU
 - PIR Motion Sensor
-- Micro USB cable
+- Breakout Breadboard
+- Jumper Wires
+- Micro USB Cable
 - Soldering Gun (if the NodeMCU comes with the pins unsoldered)
 
 ## Setup
@@ -23,3 +25,12 @@
 #define LIFXTOKEN "<personal-access-token>"
 ```
 - Run `python3 cert.py -s api.lifx.com -n lifx > Sketch/certs.h` to generate certs
+
+## Circuit Connections
+
+![Circuit](./media/IMG_5837.jpg)
+![BreadBoard](./media/IMG_5839.jpg)
+
+## Usage
+
+Upload code to the board and control your lights if there is a motion detected!
